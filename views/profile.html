@@ -1,0 +1,103 @@
+<!--
+    Ellen Goetsch
+    April 14, 2019
+    home.html
+    Landing page for My Dating Website
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../styles/styles.css" type="text/css">
+    <title>My Dating Website</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <form id="profileform" method="post" action="#">
+                    <fieldset>
+                        <legend>Profile</legend>
+                        <hr>
+                        <label>Email</label><br>
+                        <input type="text" name="email"><br><br>
+                        <label>State</label> <br>
+                        <select name="state" id="state">
+                            <option value="alabama">Alabama</option>
+                            <option value="alaska">Alaska</option>
+                            <option value="arizona">Arizona</option>
+                            <option value="arkansas">Arkansas</option>
+                            <option value="california">California</option>
+                            <option value="colorado">Colorado</option>
+                            <option value="connecticut">Connecticut</option>
+                            <option value="delaware">Delaware</option>
+                            <option value="florida">Florida</option>
+                            <option value="georgia">Georgia</option>
+                            <option value="hawaii">Hawaii</option>
+                            <option value="idaho">Idaho</option>
+                            <option value="illinois  ">Illinois</option>
+                            <option value="indiana">Indiana</option>
+                            <option value="iowa">Iowa</option>
+                            <option value="kansas">Kansas</option>
+                            <option value="kentucky">Kentucky</option>
+                            <option value="louisiana">Louisiana</option>
+                            <option value="maine">Maine</option>
+                            <option value="maryland">Maryland</option>
+                            <option value="massachusetts">Massachusetts</option>
+                            <option value="michigan">Michigan</option>
+                            <option value="minnesota">Minnesota</option>
+                            <option value="mississippi">Mississippi</option>
+                            <option value="missouri">Missouri</option>
+                            <option value="montana">Montana</option>
+                            <option value="nebraska">Nebraska</option>
+                            <option value="nevada">Nevada</option>
+                            <option value="new hampshire">New Hampshire</option>
+                            <option value="new jersey">New Jersey</option>
+                            <option value="new mexico">New Mexico</option>
+                            <option value="new york">New York</option>
+                            <option value="north carolina">North Carolina</option>
+                            <option value="north dakota">North Dakota</option>
+                            <option value="ohio">Ohio</option>
+                            <option value="oklahoma">Oklahoma</option>
+                            <option value="oregon">Oregon</option>
+                            <option value="pennsylvania">Pennsylvania</option>
+                            <option value="rhode island">Rhode Island</option>
+                            <option value="south carolina">South Carolina</option>
+                            <option value="south dakota">South Dakota</option>
+                            <option value="tennessee">Tennessee</option>
+                            <option value="texas">Texas</option>
+                            <option value="utah">Utah</option>
+                            <option value="vermont">Vermont</option>
+                            <option value="virginia">Virginia</option>
+                            <option value="washington">Washington</option>
+                            <option value="west virginia">West Virginia</option>
+                            <option value="wisconsin">Wisconsin</option>
+                            <option value="wyoming">Wyoming</option>
+                        </select>
+                        <br><br>
+                        <label>Seeking</label> <br>
+                        <input type="radio" value="men" name="seeking"
+                           id="men">&nbsp;&nbsp;Men &nbsp;&nbsp;&nbsp;
+                        <input type="radio" value="women" name="seeking"
+                           id="women">&nbsp;&nbsp;Women <br><br>
+                    </fieldset>
+
+            <div class="col-6">
+
+                <fieldset>
+                    <label>Biography</label> <br>
+                    <textarea rows="10" cols="50"
+                              name="biography" id="biography"></textarea>
+                </fieldset>
+                <button class="btn btn-primary btn-lg">Next ></button>
+            </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
